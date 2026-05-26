@@ -7,6 +7,8 @@ namespace WebApIkaveri.Models
         public AppDb(DbContextOptions<AppDb> options) : base(options)
         {
         }
-        public DbSet<Products> Products { get; set; }       
+        public DbSet<Products> Products { get; set; }    
+        
+        public DbSet<Users> Users { get; set; }     
     }
 }
